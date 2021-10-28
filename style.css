@@ -1,0 +1,35 @@
+body {
+    background-color: #DCDCDC;
+    text-align: center;
+}
+
+header {
+    background: var(--cp-color-19);
+    height: var(--cp-header-height);
+    min-width: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    height: 5vw;
+}
+
+div#img-div{
+    background-color: white;
+    width: 100%;
+    line-height: 1.6;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+li {
+    margin: 16px 0;
+}
